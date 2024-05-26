@@ -1,5 +1,5 @@
 """
-ASGI config for ConformacionHogarServices project.
+ASGI config for conformation_home_api project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ConformacionHogarServices.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'conformation_home_api.settings')
 
 application = get_asgi_application()
